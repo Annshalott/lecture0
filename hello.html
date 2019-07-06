@@ -2,8 +2,83 @@
 <html>
   <head>
     <title>CS50</title>
+    <style>
+    	div {
+    		font-family: Arial, sans-serif;
+    		font-size: 20px;	
+    		border: 3px solid yellow;
+    	}
+    	.name {
+    		font-weight: bold;
+    	}
+    	table {
+    		font-family: Arial, sans-serif;
+    		font-size: 14px;
+    		border: 2px solid black;
+    		border-collapse: collapse;
+    		width: 40%;
+    		text-align: center;
+    	}
+    	th, td {
+    		border: 1px solid gray;
+    		padding: 5px;
+    	}
+    	th {
+    		background-color: lightgray;
+    	}
+    </style>
   </head>
   <body>
-    <p>This is a starter for CS50 web programming with Python and Javascript.<p>
-    <p>Adding a new line as a test for git pull.</p>
+
+  	<img src="ASoF.jpg" width="200">
+  	<div><p>This is a starter for <span class="name">CS50 web programming with Python and Javascript</span>.<p>
+    <p>Adding a new line as a test for git pull.</p></div>
+
+    <p>Basic reminders about <span class="name">HTML tags</span>.
+  	<h1 style="color:red;text-align:center">Visualising built-in heading tags</h1>
+  	<h2>This is h2</h2>
+  	<h3>This is h3</h3>
+  	<h4>This is h4</h4>
+  	<h5>This is h5</h5>
+  	<h6>This is h6</h6>
+  	Lists, unordered and ordered.
+  	<ul>
+  		<li>First item</li>
+  		<li>Second item</li>
+  		<li>Third item</li>
+  	</ul>
+  	<ol>
+  		<li>First item</li>
+  		<li>Second item</li>
+  		<li>Third item</li>
+  	</ol>
+  </p>
+  <table style="text-align:left">
+  	<tr>
+  		<th>Meal</th>
+  		<th>Breakfast</th>
+  		<th>Lunch</th>
+  		<th>Dinner</th>
+  	</tr>
+  	<tr>
+  		<th>Main dish</th>
+  		<td>Oatmeal</td>
+  		<td>Salad</td>
+  		<td>Soup</td>
+  	</tr>
+  	<tr>
+  		<th>Drink</th>
+  		<td>Coffee</td>
+  		<td>Tea</td>
+  		<td>Water</td>
+  	</tr>
+  </table>
+</p>
+<p>
+  <form>
+  	<input type="text" placeholder="Full Name" name="name">
+  	<button>Submit</button>
+  </form>
+</p>
+    
   </body>
